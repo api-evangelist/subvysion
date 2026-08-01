@@ -1,7 +1,12 @@
 aid: subvysion
-name: Subvysion
-description: Subvysion is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: SubVysion
+description: SubVysion is a subsurface mapping intelligence company that delivers 3D maps of hidden
+  underground infrastructure for construction crews, utility locators, and contractors. It combines
+  multi-sensor ground-penetrating radar (GPR) with 3D mapping to visualize buried utilities, pipes,
+  and conduits so teams can see what is below before they dig or break ground — reducing strikes,
+  rework, and safety incidents. Backed by Y Combinator, SubVysion is an early-stage company that
+  currently publishes a marketing website only; as of this enrichment pass it exposes no public API,
+  developer portal, SDKs, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/subvysion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +14,44 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://subvysion.com/SubVysionLogoFullWhite.webp
 tags:
 - Company
+- Underground Mapping
+- Ground Penetrating Radar
+- 3D Mapping
+- Construction Technology
+- Utility Locating
+- Geospatial
+- Subsurface Intelligence
+- Y Combinator
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/subvysion-domain-security.yml
+- type: Website
+  url: https://subvysion.com
+- type: GitHubOrganization
+  url: https://github.com/subvysion
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
