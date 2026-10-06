@@ -38,7 +38,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 image: https://subvysion.com/SubVysionLogoFullWhite.webp
 tags:
 - Company
@@ -57,6 +57,8 @@ x-enrichment:
   artifacts_added: 1
   pass: local-v1
 common:
+- url: https://blog.subvysion.com/rss/index.html
+  type: BlogRSS
 - type: DomainSecurity
   url: security/subvysion-domain-security.yml
 - type: Website
